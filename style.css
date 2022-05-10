@@ -1,21 +1,155 @@
-body{
+body {
+    font-family: sans-serif;
+    color: rgb(89, 87, 87);
+    margin: 0;
+}
+#header {
+    border-bottom: 1px solid #e4e4e4;
+    margin-bottom: 3rem;
+    margin-right: 10px;
+}
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    background-color: hsl(0 0% 98%);
+    /* background-color: aqua; */
+    position: fixed;
+    border-bottom: 1px solid #e4e4e4;
+}
+.grid {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+.title {
+    text-decoration: none;
+    color: black;
+}
+span {
+    color: blue;
+}
+.about {
+    padding: 30px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    border-bottom: 1px solid #e4e4e4;
+}
+.info {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+    text-align: center;
+    margin: 50px;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+    color: blue;
+}
+#thomas {
+    width: 600px;
+}
+h3 {
+    font-size: 40px;
+}
+.skills {
+    /* border: 2px solid red; */
+    width: 60%;
+    margin: auto;
     text-align: center;
 }
-.title-name {
-    font-size: 65px;
-    font-family: sans-serif;
-    
+.skills-list{
+    /* border: 2px solid green; */
+    background-color: hsl(0 0% 98%);
+    border-bottom: 4px solid blue;
+    width: 28%;
+    display: inline-block;
+    margin: 20px;
+    vertical-align:text-top;
+    text-align:left;
 }
-.button-index {
-    background-color:chocolate;
-    color: aliceblue;
-    border-radius: 4px;
-    padding: 5px 10px;
-    text-decoration: none;
+ul {
+    list-style: none;
 }
-.image {
-    border-radius: 100%;
-    display: block;
+.skills-list h3{
+    color: blue;
+}
+.social {
+    border-top: 1px solid #e4e4e4;
+    margin-top: 80px;
+    text-align: center;
+    background-color: hsl(0 0% 98%);
+}
+.icon {
+    width: 80px;
+    height: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #header {
+    border-bottom: 1px solid #e4e4e4;
+    margin-bottom: 2rem;
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+nav {
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.container {
+    max-width: 1120px;
     margin-left: auto;
     margin-right: auto;
 }
+.title {
+    color: black;
+}
+span {
+    color: blue;
+}
+nav, ul, li, .menu {
+    text-align: center;
+    position: relative;
+}
+.grid {
+    list-style:none;
+    display: flex;
+    gap: 2rem;
+}
+a {
+    text-decoration: none;
+} */

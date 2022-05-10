@@ -1,45 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Thomas Boos Pegler</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <style></style>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Thomas Boos Pegler</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
 <body>
-<!-- Indice -->
-<a class="button-index" href="#descrição">Descrição</a>
-<a class="button-index" href="#principais habilidades">Habilidades</a>
-<a class="button-index" href="#links">Links</a></li>
-<!-- Descrição Thomas -->
-<h1 class="title-name">Thomas Boos Pegler</h1>
-<img class="image" id="thomas" src="./Thomas.jpg" alt="Foto do Thomas" width="450px"> 
-<p id="descrição">Estudante de desenvolvimento Web na <a href="https://www.betrybe.com/" target="_blank">Trybe</a><br>
-Estudante de Administração de Empresas na <a href="https://estacio.br/" target="_blank">Estacio</a><br>
-<br>Oi eu sou o Thomas! Tenho 22 anos, nasci em São Paulo, Brasil em 2000. Aos 13 anos vim morar en Santa Cruz, Bolivia com minha mãe, onde me encontro ate hoje.</p>
-<p>Acompanhe meu trabalho no <a href="https://github.com/thomasboospegler">GitHub</a> e visite-me nas minhas redes sociais <a href="https://www.linkedin.com/in/thomasboospegler/">LinkedIn</a>  <a href="https://www.instagram.com/thomaspegler_/">Instagram</a>  <a href="https://twitter.com/thomasbpegler">Twitter</a></p>
-<hr> 
-<!-- Habilidades -->
-<p id="principais habilidades"><strong>Habilidades que mais me orgulho</strong></p>
-<ul>
-    <li><em>Comprometimento</em></li><br>
-    <li><em>Empatia</em></li><br>
-    <li><em>Paciencia</em></li>
-</ul><br>
-<p id="outras habilidades"><strong>Outras habilidades</strong></p>
-<ul>
-    <li><em>Autoconhecimento</em></li><br>
-    <li><em>Proatividade</em></li><br>
-    <li><em>Raciocínio</em></li><br>
-    <li><em>Resistencia</em></li><br>
-    <li><em>Estabilidade</em></li>
-</ul>
-<hr> 
-<!-- Links -->
-<a id="links" href="#thomas">Thomas</a><br>
-<a href="https://www.nytimes.com/section/lens">Blog de fotografia</a><br>
-<a href="https://blog.betrybe.com/">Blog da Trybe</a>
+    <!-- Indice -->
+    <header id="header"> 
+        <nav class="container">
+            <a class="title" href="#">Thomas<span>Boos</span>Pegler</a>
+            <div class="menu">
+                <ul class="grid">
+                    <li>
+                        <a class="title" href="#thomas">Quem sou eu</a>
+                    </li><li>
+                        <a class="title" href="#skills">Minhas habilidades</a>
+                    <!-- </li><li>
+                        <a class="title" href="#hobbies">Hobbies</a> -->
+                    </li><li>
+                        <a class="title" href="#social">Redes sociais</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header> 
+  
+    <main>
+        <!-- Descrição Thomas -->
+        <div class="about"> 
+            <div class="info">
+                <h3>Quem sou eu <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="40"/></h3>
+                <p>Ola! Eu sou o Thomas, tenho 22 anos. Nasci em São Paulo, Brasil no ano de 2000. Aos 13 anos vim morar en Santa Cruz, Bolivia com minha mãe. Atualmente estou morando na Bolivia e estudando desenvolvimento Web na <a href="https://www.betrybe.com/" target="_blank">Trybe</a> e estudando Administração de Empresas na <a href="https://estacio.br/" target="_blank">Estacio</a>, ambas estudando em modalidades online.</p>
+                <p>Acompanhe-me nas minhas <a href="#social">redes sociais</a> <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"></p>
+            </div>
+            <div class="info">
+                <img id="thomas" src="./Thomas.jpg" alt="Foto do Thomas">
+            </div>
+        </div>
+            
+        <!-- Habilidades -->
+        <div class="skills" id="skills">
+            <h3>Minhas Habilidades</h3>
+            <div class="skills-list">
+                <h3>Técnicas</h3>
+                <ul>
+                    <li>Básico em <b>HTML</b></li>
+                    <li>Básico em <b>CSS</b></li>
+                    <li>Básico em <b>Photoshop</b></li>
+                    <li>Básico em <b>Ligthroom</b></li>
+                    <li>Básico em <b>JavaScript</b></li>
+                </ul>
+            </div>
+            <div class="skills-list">
+                <h3>Sociais</h3>
+                <ul>
+                    <li>Comprometimento</li>
+                    <li>Empatia</li>
+                    <li>Paciencia</li>
+                    <li>Proatividade</li>
+                    <li>Raciocínio</li>
+                    <li>Resistencia</li>
+                </ul>
+            </div>
+            <div class="skills-list">
+                <h3>Idiomas</h3>
+                <ul>
+                    <li>Avançado em <b>Portugues</b></li>
+                    <li>Avançado em <b>Espanhol</b></li>
+                    <li>Avançado em <b>Inglês</b></li>
+                    <li>Avançado em <b>Alemão</b></li>
+                </ul>
+            </div>
+        </div> 
+        
+        <!-- Social Media -->
+        <div class="social" id="social">
+            <h3>Redes Sociais</h3>
+            <a href="https://www.facebook.com/thomas.boospegler" target="_blank" rel="noreferrer"><img class="icon" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg"/></a> 
+            <a href="https://www.github.com/thomasboospegler" target="_blank" rel="noreferrer"><img class="icon" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg"/></a> 
+            <a href="http://www.instagram.com/thomaspegler_" target="_blank" rel="noreferrer"><img class="icon" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg"/></a> 
+            <a href="https://www.linkedin.com/in/thomasboospegler" target="_blank" rel="noreferrer"><img class="icon" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg"/></a> 
+            <a href="https://www.twitter.com/thomasbpegler" target="_blank" rel="noreferrer"><img class="icon" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg"/></a>
+        </div>
+
+    </main>
 </body>
 </html>
